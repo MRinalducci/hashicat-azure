@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "test" {
   location = var.location
 }
 
+/*
 module "network" {
   source  = "app.terraform.io/mrinalducci-training/network/azurerm"
   version = "3.0.1"
@@ -16,3 +17,4 @@ module "network" {
     costcenter  = "it"
   }
 }
+*/
